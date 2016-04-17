@@ -5,7 +5,7 @@ Team members: kyunghee Lee (UserID: kyung0748), Burak Karaoglu (UserID: mbkaraog
 
 Description about final project:
   
-                        												  Minimum Spanning Tree(MST)
+Minimum Spanning Tree(MST)
                         												  
 A minimum spanning tree is a spanning tree of a connected, undirected graph. It connects all the vertices together with the minimal total weighting for its edges.
 
