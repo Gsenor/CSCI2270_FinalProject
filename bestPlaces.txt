@@ -1,0 +1,6 @@
+cities,Boston,Boulder,Chicago,Disneyland,Miami
+Boston,0,10,6,5,0
+Boulder,10,0,0,15,16
+Chicago,6,0,0,4,0
+Disneyland,5,15,4,0,0
+Miami,0,16,0,0,0
