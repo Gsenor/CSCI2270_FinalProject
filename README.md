@@ -1,6 +1,9 @@
 Team members: Burak Karaoglu, Kyunghee Lee
+
 Emails: meka7330@colorado.edu, kyle0909@colorado.edu
+
 Github UserIDs: mbkaraoglu, kyung0748
+
 Final Project gitHub URL: https://github.com/kyung0748/CSCI2270_FinalProject.git
 
 
