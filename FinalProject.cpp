@@ -103,7 +103,7 @@ int main()
 			mst.KruskalMST();
 			break;
 		case 3:  cout << "Goodbye!" << endl;  f = 1; break;
-		default: cout << "undefiend" << endl;
+		default: cout << "undefined" << endl;
 		}
 		if (f == 1)
 			break;
