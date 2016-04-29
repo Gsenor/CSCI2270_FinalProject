@@ -19,13 +19,13 @@ int main()
 	string city2;
 
 	int cityNum;
-	cout << "Enter the number of cities" << endl;
-	cin >> cityNum;
-
-    if(cin.fail())
+    cout << "Enter the number of cities" << endl;
+    cin >> cityNum;
+    while(cin.fail())
     {
-        cout<<"Please enter in a number"<<endl;
-        cout<<"Enter the number of cities"<<endl;
+        cin.clear();
+        cin.ignore(1000, '\n');
+        cout << "Enter the number of cities" << endl;
         cin >> cityNum;
     }
 
