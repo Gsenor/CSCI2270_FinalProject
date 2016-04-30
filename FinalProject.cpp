@@ -1,4 +1,4 @@
-#include "MST.h"	
+#include "MST.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -17,11 +17,17 @@ int main()
 	int f = 0;
 	string city1;
 	string city2;
-	
-	int cityNum;
-	cout << "Enter the number of cities" << endl;
-	cin >> cityNum;
 
+	int cityNum;
+    cout << "Enter the number of cities" << endl;
+    cin >> cityNum;
+    while(cin.fail())
+    {
+        cin.clear();
+        cin.ignore(1000, '\n');
+        cout << "Enter the number of cities" << endl;
+        cin >> cityNum;
+    }
 
 	ifstream inFile; //open the file
 	inFile.open("bestPlaces.txt"); //the file was not opened
@@ -54,7 +60,7 @@ int main()
 		//cout << cityName[i] << endl;
 
 
-		//-----------------------------------------------		
+		//-----------------------------------------------
 		// addEdges to Graph
 		for (i = 0; i < cityNum; i++)
 		{
@@ -80,7 +86,7 @@ int main()
 	inFile.seekg(0, ios::beg);
 
 
-	//-----------------------------------------------		
+	//-----------------------------------------------
 	//Print menu
 	while (1)
 	{
